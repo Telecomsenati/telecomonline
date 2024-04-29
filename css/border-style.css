@@ -1,0 +1,40 @@
+.contenedor {
+    display: flex;
+}
+.solid {
+    border-style: solid;
+    border-width: 5px 3px 8px 10px; /*BORDES EN CADA Linea*/
+    border-color: aqua darkblue darkgoldenrod khaki;
+}
+.dotted {
+    border-style: dotted;
+    border: 6px 4px;
+    border-color: blueviolet saddlebrown firebrick violet;
+}
+.dashed {
+    border-style: dashed;
+    border-width: 5px 3px;
+    border-color: aquamarine darkgreen blue darkviolet;
+}
+@media (max-width:576px) {
+    p {
+        background-color: aqua;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+    }
+    .solid {
+        border-style: none;
+    }
+    .dotted {
+        border-style: none;
+    }
+    .dashed {
+        border-style:none ;
+    }
+    .contenedor {
+        display: block;
+    }
+}
+

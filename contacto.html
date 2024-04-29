@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telecom</title>
+    <link rel="stylesheet" href="css/estiloscontacto.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.jpg.jpeg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="INDEX.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="NOSOTROS.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="PRODUCTOS.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PRODUCTOS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="PRODUCTOS.html">Ciberseguridad</a></li>
+                  <li><a class="dropdown-item" href="PRODUCTOS.html">Cloud</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="PRODUCTOS.html"></a>Más</li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="CONTACTO.html">CONTACTO</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="presentacion">
+            <img class="img1" src="img/contacto.jpg" alt="">
+            <h1 class="titulo">CONTACTO</h1>
+            <p class="p">Inicie su transformación digital</p>
+            <br>
+        </div>
+    </div>
+    <div class="container">
+        <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationDefault01" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="validationDefault02" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label">Correo Electronico</label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">Cargo</label>
+              <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>Gerente</option>
+                <option>RR.HH</option>
+                <option>Vice-presidente</option>
+                <option>Administración</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label"># de telefono</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Acepta los terminos y condiciones
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar formulario</button>
+            </div>
+          </form>
+    </div><br> </br>
+    <footer>
+        <div class="container cuerpo-footer">
+            <p>Contactenos:</p>
+            <ul>
+                <li>Tlf: +51 951466215</li>
+                <li>Wsp: + 51 951664255</li>
+                <li>Correo Electronico: telecom@203.pe</li>
+            </ul>
+            <nav>
+                <p>© 2024 Telecom Network. Todos los derechos reservados.</p>
+                <ul class="menu-footer">
+                    <li><a href="">Facebook</a></li>
+                    <li> <a href="">Instagram</a></li>
+                    <li><a href="">Twiter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
